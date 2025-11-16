@@ -8,11 +8,14 @@ public class Anagram {
 //        String  str1="cat";
 //        String str2="act";
         Scanner sc=new Scanner(System.in);
+
         System.out.println("enter first character");
         String str1 = sc.nextLine();
-        System.out.println("enter second  character");
 
+        System.out.println("enter second  character");
         String str2 = sc.nextLine();
+
+
      char a []  = str1.toCharArray();
      char b []  = str2.toCharArray();
      Arrays.sort(a);
